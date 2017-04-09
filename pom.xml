@@ -26,18 +26,14 @@
 
 	</properties>
 
-	<dependencies>
-		<!-- Test Dependency Begin -->
-		<dependency>
+	<dependencyManagement>
+		<dependencies>
+				<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
 		</dependency>
-		<!-- Test Dependency End -->
-	</dependencies>
-
-	<dependencyManagement>
-		<dependencies>
+		
 			<!-- Common Dependency Begin -->
 			<dependency>
 				<groupId>xalan</groupId>
